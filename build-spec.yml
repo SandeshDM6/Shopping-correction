@@ -1,8 +1,9 @@
+---
 steps:
-  run: python -m venv myvenv
-  run: source myvenv/bin/activate
-  run: pip install -r requirements.txt
-  run: python manage.py collectstatic
-  run: python manage.py makemigrations
-  run: python manage.py migrate
-  run: python manage.py runserver
+  - run: python -m venv myvenv
+  - run: source myvenv/bin/activate
+  - run: pip install -r requirements.txt
+  - run: python manage.py collectstatic
+  - run: python manage.py makemigrations
+  - run: python manage.py migrate
+  - run: python manage.py runserver
