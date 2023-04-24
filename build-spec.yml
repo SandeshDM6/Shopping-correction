@@ -1,3 +1,4 @@
+---
 steps:
   - run: python -m venv myvenv
   - run: source myvenv/bin/activate
