@@ -8,7 +8,6 @@ phases:
       - source myvenv/bin/activate
   build:
     commands:
-      - echo "Starting build phase"
       - pip install -r requirements.txt
       - python manage.py collectstatic
       - python manage.py makemigrations
