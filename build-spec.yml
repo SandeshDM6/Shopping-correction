@@ -9,7 +9,6 @@ phases:
   build:
     commands:
       - echo "Starting build phase"
-      - pip install pysqlite
       - pip install -r requirements.txt
       - python manage.py collectstatic
       - python manage.py makemigrations
