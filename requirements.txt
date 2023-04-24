@@ -2,6 +2,7 @@ asgiref==3.5.2
 async-timeout==4.0.2
 Deprecated==1.2.13
 dj-database-url==0.5.0
+python_version = ">=3.7.4,<3.8"
 Django==2.2.28
 django-ckeditor==5.9.0
 django-debug-toolbar==3.2.4
@@ -14,7 +15,7 @@ onsale==0.0.4
 packaging==21.3
 Pillow==9.5.0
 pyparsing==3.0.9
-pysqlite3-binary==0.4.6
+pysqlite3-binary==0.5.0
 pytz==2019.3
 redis==4.3.4
 sqlparse==0.3.1
